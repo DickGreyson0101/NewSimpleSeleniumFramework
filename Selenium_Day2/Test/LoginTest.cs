@@ -19,7 +19,7 @@ namespace Selenium_Day2.Test
             dashboardPage = new DashboardPage(browser.Driver);
 
         }
-
+        [TestCategory("Smoketest")]
         [TestMethod("TC01: Login with valid username and password")]
         public void VerifyValidUser()
         {
@@ -43,7 +43,8 @@ namespace Selenium_Day2.Test
             //Assert.IsTrue(dashboardPage.IsLabelDashboardDisplay());
            
         }
-        
+
+        [TestCategory("Smoketest")]
         [TestMethod("TC02: Login with invalid username and password")]
         public void VerifyInValidUser()
         {
