@@ -48,7 +48,6 @@ namespace Selenium_Day2.Test
         [TestMethod("TC02: Login with invalid username and password")]
         public void VerifyInValidUser()
         {
-            throw new Exception();
             //Input username & password
             loginPage.LoginWithUsernameAndPassword("Admin", "admin1111");
 
